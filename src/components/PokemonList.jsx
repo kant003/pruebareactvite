@@ -21,6 +21,5 @@ function PokemonList({amount=6}){
             }
         </ul>
     </>
-
 }
 export default PokemonList
