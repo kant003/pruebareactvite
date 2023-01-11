@@ -16,7 +16,7 @@ function PokemonList({amount=6}){
         <ul>
             {
                 pokemons.map( pokemon => {
-                    return <li>{pokemon.name}</li>
+                    return <li key={pokemon.name}>{pokemon.name}</li>
                 })
             }
         </ul>

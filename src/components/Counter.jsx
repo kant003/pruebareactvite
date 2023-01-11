@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 function Counter() {
-    const [value, setValue] = useState(2)
+    const [value, setValue] = useState(1)
 
     return <>
         <div>El valor es {value}</div>
